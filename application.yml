@@ -1,0 +1,13 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+      dialect: org.hibernate.dialect.PostgreSQL9Dialect
+      show_sql: true
+    properties.hibernate.temp.use_jdbc_metadata_defaults: false
+  datasource:
+    platform: postgres
+    url: jdbc:postgresql://ec2-54-216-185-51.eu-west-1.compute.amazonaws.com/dam2g6t2hol5o
+    username: brkzyhcrpiagwh
+    password: 0ef477278fef03449f096858c24e05041d0c0828b84fb7ec8eec0bd42990f28c
+    driverClassName: org.postgresql.Driver
